@@ -1,0 +1,15 @@
+sudo: true
+dist: xenial
+language: minimal
+
+stages:
+  - name: build
+    if: branch != master
+
+jobs:
+  include:
+    - stage: build
+      script: 
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+        - docker build -t $DOCKER_USERNAME/php:$TRAVIS_BRANCH .
+        - docker push $DOCKER_USERNAME/php:$TRAVIS_BRANCH

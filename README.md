@@ -1,11 +1,15 @@
-- only 40.4MB
-- alpine 3.8
-- apache 2.4
-- php-fpm enabled, uses tcp
-- php-memcached installed
-- apache user and group are *www-data*
-- default virtualhost's DocumentRoot is /var/www/html
-- .htaccess override allowed
+|                                                                                                                |               |                                                                        |
+| -------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------- |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.0-cli)](https://travis-ci.org/jexperton/php) | ```7.0-cli``` | [Dockerfile](https://github.com/jexperton/php/blob/7.0-cli/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.1-cli)](https://travis-ci.org/jexperton/php) | ```7.1-cli``` | [Dockerfile](https://github.com/jexperton/php/blob/7.1-cli/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.2-cli)](https://travis-ci.org/jexperton/php) | ```7.2-cli``` | [Dockerfile](https://github.com/jexperton/php/blob/7.2-cli/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.3-cli)](https://travis-ci.org/jexperton/php) | ```7.3-cli``` | [Dockerfile](https://github.com/jexperton/php/blob/7.3-cli/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.4-cli)](https://travis-ci.org/jexperton/php) | ```7.4-cli``` | [Dockerfile](https://github.com/jexperton/php/blob/7.4-cli/Dockerfile) |
 
-Tags:
-- ```7.2-fpm-apache-alpine3.8``` *[(7.2/apache/Dockerfile)](https://github.com/JExperton/Dockerfiles/blob/7.2-fpm-apache-alpine3.8/php/7.2/apache/Dockerfile)*
+|                                                                                                                |               |                                                                        |
+| -------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------- |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.0-fpm)](https://travis-ci.org/jexperton/php) | ```7.0-fpm``` | [Dockerfile](https://github.com/jexperton/php/blob/7.0-fpm/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.1-fpm)](https://travis-ci.org/jexperton/php) | ```7.1-fpm``` | [Dockerfile](https://github.com/jexperton/php/blob/7.1-fpm/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.2-fpm)](https://travis-ci.org/jexperton/php) | ```7.2-fpm``` | [Dockerfile](https://github.com/jexperton/php/blob/7.2-fpm/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.3-fpm)](https://travis-ci.org/jexperton/php) | ```7.3-fpm``` | [Dockerfile](https://github.com/jexperton/php/blob/7.3-fpm/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/php.svg?branch=7.4-fpm)](https://travis-ci.org/jexperton/php) | ```7.4-fpm``` | [Dockerfile](https://github.com/jexperton/php/blob/7.4-fpm/Dockerfile) |
