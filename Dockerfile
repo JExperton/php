@@ -1,4 +1,4 @@
-FROM php:7.2-alpine3.10
+FROM php:7.2-fpm-alpine3.10
 
 ENV LD_PRELOAD /usr/lib/preloadable_libiconv.so php
 ENV RUNTIME_DEPS \
